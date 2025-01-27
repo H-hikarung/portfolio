@@ -1,0 +1,193 @@
+body {
+    font-family: '游明朝','Yu Mincho',YuMincho;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    background: #333;
+    color: #fff;
+    padding: 1ex 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+#title h1 {
+    font-family: "EB Garamond";
+    text-align: center;
+    font-size: 40px;
+}
+
+#home h1 {
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0.2em;
+}
+
+#overview h2 {
+    font-size: 30px;
+}
+
+#detail h2 {
+    font-size: 30px;
+}
+
+#concept h2 {
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    height: 80px;
+    width: 80px;
+}
+
+.work {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+.work img {
+    height: 300px;
+    width: 300px;
+}
+
+.work h3 {
+    font-size: 20px;
+}
+
+.work a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: black;
+    text-decoration: none;
+}
+
+.more {
+    padding-top: 10px;
+    max-height: 25px;
+    text-align: right;
+}
+
+.more span {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    font-size: 18px;
+    vertical-align: top;
+}
+
+.more img {
+    height: 25px;
+    width: 25px;
+}
+
+.more a {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 作品ページのスタイルシート */
+
+#banner {
+    text-align: center;
+}
+
+#banner img {
+    width: 80%;
+    height: auto;
+}
+
+iframe.youtube {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+#concept p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+}
+
+.storyboard {
+    text-align: center;
+    width: 45%;
+    min-width: 500px;
+    height: auto;
+    aspect-ratio: 5 / 7;
+}
