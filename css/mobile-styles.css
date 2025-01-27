@@ -1,7 +1,7 @@
 body {
     font-family: '游明朝','Yu Mincho',YuMincho,"Noto Serif JP";
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -33,7 +33,6 @@ header nav ul li a {
 
 main {
     padding: 20px;
-    max-width: 80%;
     margin: 0 auto;
 }
 
@@ -51,35 +50,36 @@ h1 {
 h2 {
     font-family: "EB Garamond";
     font-weight: 400;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 h3 {
     font-weight: 400;
+    font-size: 16px;
 }
 
 #title h1 {
     font-family: "EB Garamond";
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 #home h1 {
-    font-size: 80px;
+    font-size: 60px;
     text-align: center;
     letter-spacing: 0.2em;
 }
 
 #overview h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #detail h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 #concept h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .container {
@@ -92,27 +92,31 @@ h3 {
 
 .skill {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .skill img {
-    height: 80px;
-    width: 80px;
+    height: 50px;
+    width: 50px;
 }
 
 .work {
     position: relative;
     text-align: center;
-    padding: 10px;
-    padding-bottom: 20px;
-}
-
-.work img {
-    height: 300px;
-    width: 300px;
+    padding: 10px 20px 0 0;
 }
 
 .work h3 {
-    font-size: 20px;
+    font-size: 14px;
+}
+
+.work p {
+    font-size: 9px;
+}
+
+.work img {
+    height: 150px;
+    width: 150px;
 }
 
 .work a {
@@ -127,24 +131,25 @@ h3 {
 
 .more {
     padding-top: 10px;
-    max-height: 25px;
+    max-height: 22px;
     text-align: right;
 }
 
 .more span {
     font-family: "EB Garamond";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 14px;
     vertical-align: top;
 }
 
 .more img {
-    height: 25px;
-    width: 25px;
+    height: 22px;
+    width: 22px;
 }
 
 .more a {
     color: black;
+    text-decoration: none;
 }
 
 footer {
@@ -170,13 +175,13 @@ footer {
 iframe.youtube {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
 }
 
 #concept p {
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -184,10 +189,14 @@ iframe.youtube {
     text-align: center;
 }
 
+.logo img {
+    width: 80%;
+    height: auto;
+}
+
 .storyboard {
     text-align: center;
-    width: 45%;
-    min-width: 500px;
+    width: 80%;
     height: auto;
     aspect-ratio: 5 / 7;
 }
