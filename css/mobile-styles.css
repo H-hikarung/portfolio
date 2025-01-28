@@ -101,13 +101,13 @@ h3 {
 }
 
 .work {
-    position: relative;
+    max-width: 50%;
     text-align: center;
     padding: 10px 20px 0 0;
 }
 
 .work h3 {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .work p {
@@ -115,16 +115,11 @@ h3 {
 }
 
 .work img {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
 }
 
 .work a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     color: black;
     text-decoration: none;
 }
@@ -181,7 +176,7 @@ iframe.youtube {
 }
 
 #concept p {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
 }
 
@@ -199,4 +194,13 @@ iframe.youtube {
     width: 80%;
     height: auto;
     aspect-ratio: 5 / 7;
+}
+
+.conceptpanel {
+    text-align: center;
+}
+
+.conceptpanel img {
+    width: 80%;
+    height: auto;
 }

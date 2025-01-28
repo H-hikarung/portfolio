@@ -100,7 +100,6 @@ h3 {
 }
 
 .work {
-    position: relative;
     text-align: center;
     padding: 10px;
     padding-bottom: 20px;
@@ -116,11 +115,6 @@ h3 {
 }
 
 .work a {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     color: black;
     text-decoration: none;
 }
@@ -162,9 +156,14 @@ footer {
     text-align: center;
 }
 
-#banner img {
-    width: 80%;
-    height: auto;
+.poster img {
+    width: auto;
+    height: 700px;
+}
+
+.screenshot img {
+    width: auto;
+    height: 500px;
 }
 
 iframe.youtube {
@@ -190,4 +189,18 @@ iframe.youtube {
     min-width: 500px;
     height: auto;
     aspect-ratio: 5 / 7;
+}
+
+.conceptpanel {
+    text-align: center;
+}
+
+.conceptpanel img {
+    width: auto;
+    height: 700px;
+}
+
+.poster {
+    width: auto;
+    height: 700px;
 }
