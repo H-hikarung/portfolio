@@ -59,7 +59,7 @@ h3 {
 }
 
 #title h1 {
-    font-family: "EB Garamond";
+    font-family: "EB Garamond",'游明朝','Yu Mincho',YuMincho,"Noto Serif JP";
     text-align: center;
     font-size: 25px;
 }
@@ -80,6 +80,10 @@ h3 {
 
 #concept h2 {
     font-size: 20px;
+}
+
+.name p {
+    font-size: 16px;
 }
 
 .container {
@@ -163,7 +167,7 @@ footer {
 }
 
 #banner img {
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -173,6 +177,25 @@ iframe.youtube {
     width: 100%;
     height: auto;
     aspect-ratio: 16 / 9;
+}
+
+.board {
+    text-align: center;
+}
+
+.board img {
+    width: 100%;
+    height: auto;
+}
+
+.board2 {
+    text-align: center;
+}
+
+.board2 img {
+    border: solid 1px #a9a9a9;
+    width: 100%;
+    height: auto;
 }
 
 #concept p {
