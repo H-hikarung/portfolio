@@ -22,6 +22,7 @@ header nav ul {
 }
 
 header nav ul li {
+    font-size: 20px;
     display: inline;
     margin: 0 15px;
 }
@@ -61,7 +62,7 @@ h3 {
 #title h1 {
     font-family: "EB Garamond",'游明朝','Yu Mincho',YuMincho,"Noto Serif JP";
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 #home h1 {
@@ -101,6 +102,20 @@ h3 {
 .skill img {
     height: 80px;
     width: 80px;
+}
+
+.badge {
+    text-align: center;
+}
+
+.badge a {
+    color: black;
+    text-decoration: none;
+}
+
+.badge img {
+    width: 200px;
+    height: 200px;
 }
 
 .work {
@@ -202,6 +217,10 @@ iframe.youtube {
     text-align: center;
 }
 
+#overview a {
+    color: black;
+}
+
 .logo {
     text-align: center;
 }
@@ -212,6 +231,24 @@ iframe.youtube {
     min-width: 500px;
     height: auto;
     aspect-ratio: 5 / 7;
+}
+
+.report {
+    text-align: center;
+    width: 30%;
+    min-width: 300px;
+    height: auto;
+    aspect-ratio: 5 / 7;
+    margin-bottom: 20px;
+}
+
+.slide {
+    text-align: center;
+    width: 45%;
+    min-width: 600px;
+    height: auto;
+    border: solid 1px #a9a9a9;
+    margin-bottom: 20px;
 }
 
 .conceptpanel {
@@ -226,4 +263,31 @@ iframe.youtube {
 .poster {
     width: auto;
     height: 700px;
+}
+
+/* ボタンの指定 */
+button {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 15px;
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+    font-family: "EB Garamond";
+    font-size: 18px;
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+/* クラス付与時の指定 */
+.is-active {
+    opacity: 1;
+    visibility: visible;
 }
